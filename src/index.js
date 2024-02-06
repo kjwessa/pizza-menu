@@ -74,20 +74,6 @@ function Menu() {
           <Pizza pizzaObj={pizza} key={pizza.name} />
         ))}
       </ul>
-      {/* <Pizza
-        name="Pizza Spinaci"
-        ingredients="Tomato, mozarella, spinach, and ricotta cheese"
-        photoName="pizzas/spinaci.jpg"
-        alt="Pizza spinaci"
-        price={10}
-      />
-      <Pizza
-        name="Pizza Funghi"
-        ingredients="Tomato, mushrooms"
-        photoName="pizzas/funghi.jpg"
-        alt="Pizza funghi"
-        price={12}
-      /> */}
     </main>
   );
 }
